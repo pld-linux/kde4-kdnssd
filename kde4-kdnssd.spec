@@ -12,7 +12,7 @@
 Summary:	DNS-SD Services Watcher
 Summary(pl.UTF-8):	Nadzorowanie usług DNS-SD
 Name:		kde4-%{orgname}
-Version:	4.12.3
+Version:	4.12.4
 Release:	1
 License:	Artistic
 Group:		X11/Applications
