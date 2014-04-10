@@ -16,8 +16,8 @@ Version:	4.12.4
 Release:	1
 License:	Artistic
 Group:		X11/Applications
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	1227d936c470296e778c62d94217e448
+Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/zeroconf-ioslave-%{version}.tar.xz
+# Source0-md5:	5a49d7abf66ae482f61e37231c41eb93
 URL:		http://www.kde.org/
 BuildRequires:	Qt3Support-devel >= %{qtver}
 BuildRequires:	QtOpenGL-devel >= %{qtver}
@@ -45,7 +45,7 @@ DNS-SD Services Watcher.
 Nadzorowanie usług DNS-SD.
 
 %prep
-%setup -q -n %{orgname}-%{version}
+%setup -q -n zeroconf-ioslave-%{version}
 
 %build
 install -d build
