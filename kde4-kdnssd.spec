@@ -12,12 +12,12 @@
 Summary:	DNS-SD Services Watcher
 Summary(pl.UTF-8):	Nadzorowanie usług DNS-SD
 Name:		kde4-%{orgname}
-Version:	4.13.1
+Version:	4.13.2
 Release:	1
 License:	Artistic
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/zeroconf-ioslave-%{version}.tar.xz
-# Source0-md5:	ef8f06a65e8f553d434fda461a385d3b
+# Source0-md5:	2a824507ca6408277a9ea039ab15adfd
 URL:		http://www.kde.org/
 BuildRequires:	Qt3Support-devel >= %{qtver}
 BuildRequires:	QtOpenGL-devel >= %{qtver}
